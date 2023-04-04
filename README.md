@@ -1,3 +1,5 @@
 # Model-Rating-Python
 
-`npm install`
+`cp .env.example .env`
+
+Populate DATABASE_URL in .env
