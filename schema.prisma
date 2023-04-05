@@ -1,11 +1,6 @@
 generator client {
-  provider        = "prisma-client-js"
+  provider        = "prisma-client-py"
   previewFeatures = ["fullTextSearch", "fullTextIndex"]
-}
-
-generator js {
-  provider        = "prisma-client-js"
-  previewFeatures = ["referentialIntegrity"]
 }
 
 datasource db {
